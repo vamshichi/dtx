@@ -1,6 +1,8 @@
+import Who from "../components/who";
+
 const About = () =>{
     return <div>
-        About us
+        <Who />
     </div>
 }
 
