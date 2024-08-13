@@ -18,12 +18,6 @@ const Home: React.FC = () => {
         </div>
       </section>  
       <div className="text-black pt-10 pl-4 md:pl-20 text-xl md:text-2xl">
-        {/* <div className="border-l-4 border-l-yellow-400 p-1">WHO ARE WE</div>   */}
-        {/* <ul className="flex flex-wrap justify-start space-x-4 pt-4 md:pt-10">
-          <li>wipro</li>
-          <li>hcl</li>
-          <li>wtc</li>
-        </ul> */}
         <Who />
         <Services />
         <WhyUs />

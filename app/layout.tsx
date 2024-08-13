@@ -30,7 +30,7 @@ export default function RootLayout({
               <li className="hover:bg-cyan-400 p-5"><Link href="/">Home</Link></li>
               <li className="hover:bg-cyan-400 p-5"><Link href="/about">About Us</Link></li>
               <li className="hover:bg-cyan-400 p-5"><Link href="/products">Products</Link></li>
-              <li className="hover:bg-cyan-400 p-5"><Link href="/blog">Blog</Link></li>
+              {/* <li className="hover:bg-cyan-400 p-5"><Link href="/blog">Blog</Link></li> */}
               <li className="hover:bg-cyan-400 p-5"><Link href="/contact">Contact Us</Link></li>
             </ul>
           </div>
