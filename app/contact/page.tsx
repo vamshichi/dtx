@@ -1,6 +1,8 @@
+import Con from "../components/contact";
+
 const Contact = () =>{
     return <div>
-        Contact us
+        <Con />
     </div>
 }
 

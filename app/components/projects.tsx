@@ -61,14 +61,20 @@ const Projects: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 py-6">
           {clientLogos.map((logo, index) => (
             <div key={index} className="flex justify-center">
-              <Image src={logo.src} alt={logo.alt} width={120} height={60} objectFit="contain" />
+              <Image 
+                src={logo.src} 
+                alt={logo.alt} 
+                width={120} 
+                height={60} 
+                style={{ objectFit: 'contain' }} // Updated to use style prop
+              />
             </div>
           ))}
         </div>
 
-        <footer className="text-center text-gray-600 text-sm mt-8">
+        {/* <footer className="text-center text-gray-600 text-sm mt-8">
           © 2020 - Design Technix - All Rights Reserved
-        </footer>
+        </footer> */}
       </div>
     </section>
   );
