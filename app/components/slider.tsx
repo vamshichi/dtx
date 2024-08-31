@@ -1,42 +1,26 @@
-// components/HeroSlider.tsx
+import React from 'react';
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-const sliderImages = [
-  "/images/hero.jfif",
-  "/images/hero.jfif",
-];
-
-export default function HeroSlider() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
-  };
-
+const Hero: React.FC = () => {
   return (
-    <section className="hero-slider">
-      <Slider {...settings}>
-        {sliderImages.map((src, index) => (
-          <div key={index} className="relative h-96">
-            <img
-              src={src}
-              alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-              <h2 className="text-white text-4xl font-bold">Slide {index + 1}</h2>
-            </div>
-          </div>
-        ))}
-      </Slider>
+    <section className="bg-gray-100 ">
+      <div className="max-w-screen-xl px-4 py-16 mx-auto text-center lg:py-32 lg:px-12">
+        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
+          Welcome to <span className="text-blue-600 dark:text-blue-500">DTX</span>
+        </h1>
+        <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-600 dark:text-gray-300 sm:text-xl md:mt-6">
+          Build modern web applications faster and easier with our open-source UI components.
+        </p>
+        <div className="mt-8 flex justify-center">
+          <a
+            href="#who-we-are"
+            className="px-6 py-3 text-lg font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
+          >
+            Get Started
+          </a>
+        </div>
+      </div>
     </section>
   );
-}
+};
+
+export default Hero;

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+// import Link from "next/link";
 import Nav from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-100 text-gray-900`}>
+      <body>
          {/*<header className="bg-cyan-600 shadow-md">
           <nav className="container mx-auto px-4 md:px-8 lg:px-16 py-4 flex justify-between items-center">
             <div>
@@ -56,10 +56,11 @@ export default function RootLayout({
               {/* <li className="hover:bg-cyan-500 p-3 rounded">
                 <Link href="/contact">Contact Us</Link>
               </li>
-            </ul>    
-        </header> */}
+            </ul>
+          </nav>
+        </header> */} 
         <Nav />
-        <main className="container mx-auto px-4 md:px-8 lg:px-16 py-8">
+        <main >
           {children}
         </main>
       </body>

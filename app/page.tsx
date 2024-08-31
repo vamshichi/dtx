@@ -4,11 +4,14 @@ import Services from './components/services';
 import WhyUs from './components/whyUs';
 import Projects from './components/projects';
 import Contact from './components/contact';
+import Hero from './components/slider';
+import OurClients from './components/ourclients';
+import Footer from './components/footer';
 
 const Home: React.FC = () => {
   return (
     <main>
-      <section
+      {/* <section
         className="hero h-screen  w-full bg-cover bg-center text-white"
         style={{ backgroundImage: "url('/images/hero.jfif')" }}
       >
@@ -20,14 +23,15 @@ const Home: React.FC = () => {
             India
           </h2>
         </div>
-      </section>  
-      <div className="text-black pt-10 px-4 md:px-8 lg:px-20 text-lg md:text-xl lg:text-2xl space-y-10">
-        <Who />
-        <Services />
-        <WhyUs />
-        <Projects />
-        <Contact />
-      </div>
+      </section>   */}
+      <Hero />
+      <Who />
+      <Services />
+      <WhyUs />
+      <Projects />
+      <OurClients />
+      <Contact />
+      <Footer />
     </main>
   );
 }
