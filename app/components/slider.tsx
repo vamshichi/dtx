@@ -8,8 +8,7 @@ const Hero: React.FC = () => {
           Welcome to <span className="text-blue-600 dark:text-blue-500">DTX</span>
         </h1>
         <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-600 dark:text-gray-300 sm:text-xl md:mt-6">
-        We have a highly skilled team of Engineers who can cater to your company's needs within a short turnaround time.
-
+           We have a highly skilled team of Engineers who can cater to your company's needs within a short turnaround time.
         </p>
         <div className="mt-8 flex justify-center">
           <a
