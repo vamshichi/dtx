@@ -8,7 +8,8 @@ const Hero: React.FC = () => {
           Welcome to <span className="text-blue-600 dark:text-blue-500">DTX</span>
         </h1>
         <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-600 dark:text-gray-300 sm:text-xl md:mt-6">
-        We are a learning services provider that offers a multitude of different Engineering training services. Our coursework is geared for professionals, students, and corporations that want to increase their knowledge base to provide outstanding service.
+        We are a learning services provider that offers a multitude of different Engineering training services.
+        Our coursework is geared for professionals, students, and corporations that want to increase their knowledge base to provide outstanding service.
         </p>
         <div className="mt-8 flex justify-center">
           <a

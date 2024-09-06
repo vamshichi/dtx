@@ -11,13 +11,13 @@ const WhyDTX: React.FC = () => {
           Globally recognized firm that has been leading the way in Design and Detailed Engineering Services for oil and gas companies globally. DTX has been providing all-round engineering solutions such as Detailing, Designing, Layouts, Process Engineering, Instrumentation Engineering, Piping Engineering, Electrical Engineering, and Civil Engineering.
         </p>
         <ul className="mt-8 space-y-4 text-lg text-gray-600">
-          <li>• Project completion on time</li>
-          <li>• Experience of over decades in the industry</li>
-          <li>• Trust & Credibility in the market</li>
-          <li>• Deployment of skilled engineering professionals</li>
-          <li>• Engineering services of international standard</li>
-          <li>• Cost-effective services to the industry</li>
-          <li>• Government statutory compliance</li>
+          <li>→ Project completion on time</li>
+          <li>→ Experience of over decades in the industry</li>
+          <li>→ Trust & Credibility in the market</li>
+          <li>→ Deployment of skilled engineering professionals</li>
+          <li>→ Engineering services of international standard</li>
+          <li>→ Cost-effective services to the industry</li>
+          <li>→ Government statutory compliance</li>
         </ul>
       </div>
     </section>
