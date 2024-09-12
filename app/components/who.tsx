@@ -8,7 +8,7 @@ const WhoWeAre: React.FC = () => {
           Who We Are
         </h2>
         <p className="mt-4 text-lg text-yellow-50">
-          Design Technix - Bangalore, Owned by Verkey Group FZC, UAE.
+          Design Technix - Bangalore .
         </p>
         <p className="mt-2 text-lg text-yellow-50">
           We have a team strength of 10 full-time staff and have all the necessary infrastructure

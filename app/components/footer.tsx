@@ -9,17 +9,17 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
             <p className="mb-2">
-              <strong>Address:</strong> Shop No 7, Hari Om Shopping Center, Sector 2, Nerul West, Navi Mumbai, Maharashtra 400706
+              <strong>Address:</strong>No.17/1, Yeshvanthpur, Triveni Road, Opp Shankar Glass And Plywood Bangalore
             </p>
             <p className="mb-2">
-              <strong>Phone:</strong> +91 9967502476, +91 9323202476, +91 7718886081
+              <strong>Phone:</strong> +91-9980741922  
             </p>
             <p>
               <strong>Email:</strong><br />
-              <a href="mailto:namo@namoengineering.com" className="text-blue-400 hover:underline">dtx@dtxengineering.com</a><br />
-              <a href="mailto:sachinshah@itwebtechcomputers.com" className="text-blue-400 hover:underline">dtx@dtxengineering.com</a><br />
-              <a href="mailto:manpower@namoengineering.com" className="text-blue-400 hover:underline">dtx@dtxengineering.com</a>
-            </p>
+              <a href="mailto:namo@namoengineering.com" className="text-blue-400 hover:underline">dev@vkdt.in</a><br />
+              {/* <a href="mailto:sachinshah@itwebtechcomputers.com" className="text-blue-400 hover:underline">dtx@dtxengineering.com</a><br />
+              <a href="mailto:manpower@namoengineering.com" className="text-blue-400 hover:underline">dtx@dtxengineering.com</a>*/}
+            </p> 
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Useful Links</h3>

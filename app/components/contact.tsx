@@ -32,18 +32,18 @@ const Contact: React.FC = () => {
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-gray-900">Address</h3>
-            <p className="mt-4 text-gray-600">Shop No 7, Hari Om Shopping Center, Sector 2, Nerul West, Navi Mumbai, Maharashtra 400706</p>
+            <p className="mt-4 text-gray-600">No.17/1, Yeshvanthpur, Triveni Road, Opp Shankar Glass And Plywood Bangalore</p>
             <h3 className="mt-6 text-xl font-semibold text-gray-900">Phone Number</h3>
             <ul className="mt-4 text-gray-600 list-disc list-inside">
-              <li>+91 1234566889</li>
-              <li>+91 9876543321</li>
-              <li>+91 7865437214</li>
+              <li>+91-9980741922</li>
+              {/* <li>+91 9876543321</li>
+              <li>+91 7865437214</li> */}
             </ul>
             <h3 className="mt-6 text-xl font-semibold text-gray-900">Email</h3>
             <ul className="mt-4 text-gray-600 list-disc list-inside">
-              <li><a href="mailto:namo@namoengineering.com" className="text-blue-600 hover:underline">dtx@dtxengineering.com</a></li>
-              <li><a href="mailto:sachinshah@itwebtechcomputers.com" className="text-blue-600 hover:underline">dtx@dtxengineering.com</a></li>
-              <li><a href="mailto:manpower@namoengineering.com" className="text-blue-600 hover:underline">dtx@dtxengineering.com</a></li>
+              <li><a href="mailto:namo@namoengineering.com" className="text-blue-600 hover:underline">dev@vkdt.in</a></li>
+              {/* <li><a href="mailto:sachinshah@itwebtechcomputers.com" className="text-blue-600 hover:underline">dtx@dtxengineering.com</a></li>
+              <li><a href="mailto:manpower@namoengineering.com" className="text-blue-600 hover:underline">dtx@dtxengineering.com</a></li> */}
             </ul>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
